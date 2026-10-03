@@ -1,0 +1,28 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+.ruff_cache/
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+
+# Secrets / local config
+.env
+*.env
+config.local.*
+secrets.*
+
+# Tool outputs (generated at run time)
+bandit_report_*.json
+dlint_report_*.json
+semgrep_report_*.json
+Filtered_*/
+Sliced_*/

@@ -1,0 +1,18 @@
+# SliceGuard artifact dependencies
+# Python >= 3.9
+#
+# ---- SliceGuard (the method) ----
+pandas>=1.5
+requests>=2.28
+tqdm>=4.64
+openpyxl>=3.1          # calculate_lhr.py (ground-truth .xlsx)
+
+# ---- Static-analysis harness: Cryptolation ----
+astroid>=3.0
+redbaron>=0.9.2
+cyclonedx-python-lib>=4.0
+
+# ---- External tools invoked as commands (install separately; see README) ----
+# bandit
+# flake8 + dlint     (Dlint plugs into flake8)
+# semgrep
